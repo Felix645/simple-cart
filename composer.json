@@ -1,0 +1,20 @@
+{
+    "name": "neon-php/simple-cart",
+    "description": "Simple Shopping Cart Handler",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Felix Kuntscher",
+            "email": "felix.kuntscher@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Neon\\Cart\\": "./src"
+        }
+    },
+    "require": {
+        "php": ">=7.1.0"
+    }
+}
